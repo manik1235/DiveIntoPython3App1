@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RegularExpressions.py</StartupFile>
+    <StartupFile>Launcher.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,13 @@
     <Compile Include="DiveIn2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DiveInChapter6.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DiveIntoPython3App1.py" />
+    <Compile Include="Launcher.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MoneyGame.py">
       <SubType>Code</SubType>
     </Compile>
