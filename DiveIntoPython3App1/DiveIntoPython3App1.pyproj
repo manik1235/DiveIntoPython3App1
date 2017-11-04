@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Launcher.py</StartupFile>
+    <StartupFile>DiveInChapter6.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
