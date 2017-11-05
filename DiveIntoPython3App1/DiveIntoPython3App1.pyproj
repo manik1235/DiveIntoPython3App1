@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DiveInChapter6.py</StartupFile>
+    <StartupFile>LazyRulesTester.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,11 +25,19 @@
     <Compile Include="DiveIn2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DiveIn7_3.py" />
+    <Compile Include="DiveIn7_3Support.py" />
     <Compile Include="DiveInChapter6.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DiveIntoPython3App1.py" />
     <Compile Include="Launcher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LazyRulesClass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LazyRulesTester.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MoneyGame.py">
@@ -38,6 +46,9 @@
     <Compile Include="RegularExpressions.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rules.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

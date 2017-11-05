@@ -1,5 +1,8 @@
 import os, glob
 
+
+
+
 def exampleAbove():
     os.chdir('c:/test/')
     filelist = glob.glob('*')
