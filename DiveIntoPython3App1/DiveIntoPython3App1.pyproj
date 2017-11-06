@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LazyRulesTester.py</StartupFile>
+    <StartupFile>DiveInCh8.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,6 +12,9 @@
     <Name>DiveIntoPython3App1</Name>
     <RootNamespace>DiveIntoPython3App1</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>"SEND + MORE == MONEY"</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,6 +30,9 @@
     </Compile>
     <Compile Include="DiveIn7_3.py" />
     <Compile Include="DiveIn7_3Support.py" />
+    <Compile Include="DiveInCh8.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DiveInChapter6.py">
       <SubType>Code</SubType>
     </Compile>
