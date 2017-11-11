@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>romantest1.py</StartupFile>
+    <StartupFile>DiveInCh11.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,6 +33,9 @@
     </Compile>
     <Compile Include="DiveIn7_3.py" />
     <Compile Include="DiveIn7_3Support.py" />
+    <Compile Include="DiveInCh11.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DiveInCh8.py">
       <SubType>Code</SubType>
     </Compile>
@@ -64,11 +67,16 @@
     <Compile Include="roman1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="roman2.py" />
     <Compile Include="romantest1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="romantest2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="chinese.txt" />
     <Content Include="favorite-people.txt" />
     <Content Include="rules.txt" />
   </ItemGroup>
