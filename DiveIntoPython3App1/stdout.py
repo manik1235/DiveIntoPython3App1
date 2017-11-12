@@ -16,3 +16,5 @@ print('A')
 with open('out.log', mode='w', encoding='utf-8') as a_file, RedirectStdoutTo(a_file):
     print('B')
 print('C')
+
+print('D')
