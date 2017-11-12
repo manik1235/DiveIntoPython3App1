@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DiveInCh11.py</StartupFile>
+    <StartupFile>stdout.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -74,10 +74,14 @@
     <Compile Include="romantest2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stdout.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="chinese.txt" />
     <Content Include="favorite-people.txt" />
+    <Content Include="feed.xml" />
     <Content Include="rules.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
