@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>stdout.py</StartupFile>
+    <StartupFile>littlethings.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Ch14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch15.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Ch2.py">
@@ -58,6 +61,9 @@
     <Compile Include="ListsAndMemory.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="littlethings.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MoneyGame.py">
       <SubType>Code</SubType>
     </Compile>
@@ -78,6 +84,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="stdout.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="universaldetector.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
