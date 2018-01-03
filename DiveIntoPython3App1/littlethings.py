@@ -2,6 +2,7 @@
 A tic tac toe game
 '''
 
+import os
 import random
 
 def draw_board(current_board=[1,2,3,4,5,6,7,8,9]):
@@ -10,6 +11,7 @@ def draw_board(current_board=[1,2,3,4,5,6,7,8,9]):
     current_board is the list of spaces.
     returns current_board
     '''
+    os.system("CLS")
     board = '''
 {}|{}|{}
 =====
@@ -18,7 +20,16 @@ def draw_board(current_board=[1,2,3,4,5,6,7,8,9]):
 {}|{}|{}
         '''
     print(str(current_board))
-    print(board.format(2,1,3,4,5,6,7,8,9))
+    print(board.format(current_board[0],
+                       current_board[1],
+                       current_board[2],
+                       current_board[3],
+                       current_board[4],
+                       current_board[5],
+                       current_board[6],
+                       current_board[7],
+                       current_board[8],))
+    return current_board
 
 
 def ask_player(who):
@@ -42,11 +53,24 @@ def ask_player(who):
         # a 1-9 was entered. Return that move
         return (r,who)
 
+def SpotTakenException:
+    print("SpotTakenException:")
+    pass
+
 def place_move(current_board, where,who):
     '''
     take where(1-9) and who(X or O) and place that who in the where list location
     '''
-    pass
+    current_board = list(current_board)
+
+    try:
+        current_board.remove(where)
+    except:
+        raise SpotTakenException
+
+    current_board.insert(where-1,who)
+
+    return current_board
 
 def check_for_winner(current_board):
     '''
@@ -77,15 +101,15 @@ def play_tictactoe():
 
 
         #Ask the user where they want to go
-        ask1,ask2 = ask_player('X')
-        current_board = place_move(current_board, ask1,ask2)
+        where,who = ask_player('X')
+        current_board = place_move(current_board, where,who)
         draw_board(current_board)
 
         check_for_winner(current_board)
 
         #Ask the computer where they want to go
-        ask1,ask2 = ask_player('O')
-        current_board = place_move(current_board, ask1,ask2)
+        where,who= ask_player('O')
+        current_board = place_move(current_board, where,who)
         draw_board(current_board)
 
         check_for_winner(current_board)

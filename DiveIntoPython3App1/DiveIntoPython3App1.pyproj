@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0ffa6ff-d4a5-412f-98e7-61c32649c685</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>littlethings.py</StartupFile>
+    <StartupFile>Ch7_2018.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Ch2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch7_2018.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DiveIn2.py">
@@ -67,6 +70,9 @@
     <Compile Include="MoneyGame.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="plural6.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RegularExpressions.py">
       <SubType>Code</SubType>
     </Compile>
@@ -94,6 +100,7 @@
     <Content Include="chinese.txt" />
     <Content Include="favorite-people.txt" />
     <Content Include="feed.xml" />
+    <Content Include="plural6-rules.txt" />
     <Content Include="rules.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
